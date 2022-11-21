@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-position: center center;
+    background-color: #24252a;
+    background-size: cover;
+    linear-gradient:(rgb(219, 166, 166), rgb(0, 0, 172));
+
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+ 
+}
+
+li,a,button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+   list-style: none; 
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover{
+    color: rgb(184, 59, 233);
+}
+
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(184, 104, 236);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+ 
+button:hover{
+    background-color: rgb(183, 102, 230);
+}
